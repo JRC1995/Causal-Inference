@@ -1,0 +1,731 @@
+[Command: python -u /media/data/Causal_Inference/Baseline_Tests/Colored_MNIST/Colored_MNIST_IRM_mini_batch_unbiased.py]
+Flags:
+	grayscale_model: False
+	hidden_dim: 390
+	l2_regularizer_weight: 0.0011
+	lr: 0.0004898536566546834
+	n_restarts: 10
+	penalty_anneal_iters: 300
+	penalty_weight: 500
+	steps: 5
+epoch           env             iter            train nll       train acc       train penalty
+0               0               0               0.68802         0.53125         3.16719e-05
+0               0               100             0.48457         0.78906         0.00046
+0               1               0               0.37414         0.88281         0.01833
+0               1               100             0.33182         0.88281         0.00164
+0               2               0               1.70922         0.10938         1.59884
+
+
+epoch           train nll       train acc       train penalty   test acc
+0               0.39457         0.84966         0.00281         0.09642
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+1               0               0               0.42692         0.82812         0.00965
+1               0               100             0.47452         0.79688         0.00064
+1               1               0               0.35329         0.89062         0.01661
+1               1               100             0.31822         0.88281         0.00163
+1               2               0               1.73978         0.10938         1.83646
+
+
+epoch           train nll       train acc       train penalty   test acc
+1               0.38767         0.85018         0.00269         0.09691
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+2               0               0               0.43455         0.82812         0.01724
+2               0               100             0.47844         0.80469         2.42040e-05
+2               1               0               0.35271         0.88281         0.02242
+2               1               100             0.32921         0.87500         0.00074
+2               2               0               1.67339         0.21094         1.70146
+
+
+epoch           train nll       train acc       train penalty   test acc
+2               0.39730         0.84144         0.00230         0.19521
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+3               0               0               0.46805         0.78906         0.02877
+3               0               100             0.58408         0.67188         9.69336e-05
+3               1               0               0.60606         0.59375         0.00056
+3               1               100             0.59806         0.62500         0.00059
+3               2               0               0.81568         0.53125         0.04425
+
+
+epoch           train nll       train acc       train penalty   test acc
+3               0.57689         0.66615         0.00117         0.57733
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+4               0               0               0.64235         0.61719         0.00036
+4               0               100             0.59463         0.63281         0.00034
+4               1               0               0.61167         0.60156         0.00037
+4               1               100             0.62089         0.56250         4.00226e-05
+4               2               0               0.78170         0.54688         0.01755
+
+
+epoch           train nll       train acc       train penalty   test acc
+4               0.60510         0.61182         0.00056         0.60483
+
+
+
+Final train acc (mean/std across restarts so far):
+0.6118223852649027 0.0
+Final test acc (mean/std across restarts so far):
+0.6048259493670886 0.0
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+0               0               0               0.71300         0.42969         0.00018
+0               0               100             0.47681         0.78906         0.00034
+0               1               0               0.36845         0.86719         0.01015
+0               1               100             0.33231         0.88281         0.00098
+0               2               0               1.87507         0.10938         2.25293
+
+
+epoch           train nll       train acc       train penalty   test acc
+0               0.39370         0.84910         0.00273         0.09642
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+1               0               0               0.44002         0.82812         0.03091
+1               0               100             0.57134         0.71875         0.00109
+1               1               0               0.49280         0.67188         0.00145
+1               1               100             0.56704         0.59375         0.00161
+1               2               0               1.07334         0.47656         0.21671
+
+
+epoch           train nll       train acc       train penalty   test acc
+1               0.53997         0.68188         0.00153         0.45481
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+2               0               0               0.62557         0.57812         0.00245
+2               0               100             0.59354         0.67188         0.00021
+2               1               0               0.55614         0.59375         0.00262
+2               1               100             0.59672         0.53125         0.00011
+2               2               0               0.88534         0.47656         0.05957
+
+
+epoch           train nll       train acc       train penalty   test acc
+2               0.59467         0.59629         0.00070         0.47646
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+3               0               0               0.66080         0.53125         0.00021
+3               0               100             0.62633         0.57031         8.38760e-05
+3               1               0               0.62680         0.57031         5.31296e-05
+3               1               100             0.67308         0.50781         0.00032
+3               2               0               0.71533         0.53906         0.00203
+
+
+epoch           train nll       train acc       train penalty   test acc
+3               0.63972         0.55439         0.00037         0.57783
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+4               0               0               0.68631         0.47656         0.00023
+4               0               100             0.66105         0.51562         9.58840e-05
+4               1               0               0.67587         0.52344         2.66208e-05
+4               1               100             0.69262         0.47656         1.78527e-05
+4               2               0               0.66364         0.69531         0.00082
+
+
+epoch           train nll       train acc       train penalty   test acc
+4               0.67462         0.51342         0.00013         0.72310
+
+
+
+Final train acc (mean/std across restarts so far):
+0.5626195791196458 0.049202806145256905
+Final test acc (mean/std across restarts so far):
+0.6639636075949367 0.05913765822784811
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+0               0               0               0.70034         0.46094         7.56357e-06
+0               0               100             0.49097         0.78906         0.00294
+0               1               0               0.36994         0.86719         0.01767
+0               1               100             0.33353         0.88281         0.00165
+0               2               0               1.74186         0.10938         1.75996
+
+
+epoch           train nll       train acc       train penalty   test acc
+0               0.39438         0.84950         0.00263         0.09642
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+1               0               0               0.42919         0.82812         0.00889
+1               0               100             0.49218         0.79688         0.00280
+1               1               0               0.38071         0.88281         0.01640
+1               1               100             0.41900         0.83594         0.00045
+1               2               0               1.32713         0.34375         0.78878
+
+
+epoch           train nll       train acc       train penalty   test acc
+1               0.44763         0.80252         0.00246         0.36472
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+2               0               0               0.57230         0.70312         0.00937
+2               0               100             0.47859         0.79688         0.00163
+2               1               0               0.39119         0.86719         0.01180
+2               1               100             0.44462         0.78906         0.00129
+2               2               0               1.49399         0.26562         0.94589
+
+
+epoch           train nll       train acc       train penalty   test acc
+2               0.44914         0.79026         0.00164         0.25761
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+3               0               0               0.52424         0.73438         0.01081
+3               0               100             0.52222         0.74219         0.00034
+3               1               0               0.48785         0.72656         0.00759
+3               1               100             0.58167         0.60938         0.00027
+3               2               0               0.91134         0.48438         0.07022
+
+
+epoch           train nll       train acc       train penalty   test acc
+3               0.53691         0.67862         0.00110         0.52779
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+4               0               0               0.64779         0.54688         0.00774
+4               0               100             0.63774         0.60156         3.77986e-05
+4               1               0               0.64524         0.53125         6.97648e-06
+4               1               100             0.67095         0.50781         2.13728e-05
+4               2               0               0.70859         0.60938         0.00265
+
+
+epoch           train nll       train acc       train penalty   test acc
+4               0.63638         0.55914         0.00042         0.63954
+
+
+
+Final train acc (mean/std across restarts so far):
+0.5614583333637438 0.04020747532225429
+Final test acc (mean/std across restarts so far):
+0.6558214662447257 0.049639675112918946
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+0               0               0               0.70583         0.43750         2.67195e-05
+0               0               100             0.48598         0.78906         0.00012
+0               1               0               0.37069         0.86719         0.01560
+0               1               100             0.33327         0.88281         0.00039
+0               2               0               1.71554         0.10938         1.63922
+
+
+epoch           train nll       train acc       train penalty   test acc
+0               0.39473         0.84918         0.00267         0.09662
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+1               0               0               0.43575         0.82812         0.00729
+1               0               100             0.47883         0.79688         0.00097
+1               1               0               0.36115         0.89844         0.01874
+1               1               100             0.31643         0.88281         0.00026
+1               2               0               1.59804         0.17188         1.57053
+
+
+epoch           train nll       train acc       train penalty   test acc
+1               0.38810         0.84400         0.00271         0.16911
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+2               0               0               0.46105         0.79688         0.00638
+2               0               100             0.47713         0.79688         0.00018
+2               1               0               0.42530         0.81250         0.00499
+2               1               100             0.36157         0.85938         0.00117
+2               2               0               1.47344         0.28125         1.02373
+
+
+epoch           train nll       train acc       train penalty   test acc
+2               0.43750         0.80995         0.00162         0.26147
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+3               0               0               0.52854         0.77344         0.01838
+3               0               100             0.50144         0.76562         8.20323e-05
+3               1               0               0.41529         0.82031         0.00961
+3               1               100             0.36979         0.88281         0.00128
+3               2               0               1.40660         0.28906         1.02220
+
+
+epoch           train nll       train acc       train penalty   test acc
+3               0.45084         0.80029         0.00158         0.28886
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+4               0               0               0.50144         0.80469         0.00220
+4               0               100             0.58514         0.70312         8.41092e-05
+4               1               0               0.53328         0.70312         0.00213
+4               1               100             0.53451         0.72656         5.43100e-05
+4               2               0               1.09446         0.40625         0.30913
+
+
+epoch           train nll       train acc       train penalty   test acc
+4               0.54294         0.71596         0.00094         0.42553
+
+
+
+Final train acc (mean/std across restarts so far):
+0.6000827089028091 0.07541888331969974
+Final test acc (mean/std across restarts so far):
+0.5982496044303798 0.10858927583927225
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+0               0               0               0.67438         0.53125         8.43564e-05
+0               0               100             0.48209         0.78906         0.00037
+0               1               0               0.36716         0.88281         0.00841
+0               1               100             0.32894         0.88281         0.00018
+0               2               0               1.69974         0.10938         2.54605
+
+
+epoch           train nll       train acc       train penalty   test acc
+0               0.39405         0.84940         0.00256         0.09642
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+1               0               0               0.43190         0.82812         0.00399
+1               0               100             0.48676         0.78906         0.00067
+1               1               0               0.36029         0.89062         0.01155
+1               1               100             0.30983         0.88281         0.00021
+1               2               0               1.61520         0.11719         1.33165
+
+
+epoch           train nll       train acc       train penalty   test acc
+1               0.38218         0.85067         0.00239         0.09731
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+2               0               0               0.43668         0.82812         0.00909
+2               0               100             0.48924         0.78906         0.00236
+2               1               0               0.38261         0.87500         0.02459
+2               1               100             0.31253         0.88281         0.00061
+2               2               0               1.75837         0.11719         1.80398
+
+
+epoch           train nll       train acc       train penalty   test acc
+2               0.38978         0.84667         0.00219         0.09949
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+3               0               0               0.45015         0.82812         0.01506
+3               0               100             0.55526         0.71875         0.00179
+3               1               0               0.48847         0.72656         0.00735
+3               1               100             0.57779         0.62500         0.00032
+3               2               0               0.88343         0.47656         0.07465
+
+
+epoch           train nll       train acc       train penalty   test acc
+3               0.55176         0.69282         0.00149         0.51078
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+4               0               0               0.66966         0.57812         0.00208
+4               0               100             0.62111         0.61719         0.00014
+4               1               0               0.63604         0.53906         5.23047e-06
+4               1               100             0.63676         0.57031         0.00018
+4               2               0               0.78882         0.57812         0.02248
+
+
+epoch           train nll       train acc       train penalty   test acc
+4               0.62338         0.58842         0.00041         0.59464
+
+
+
+Final train acc (mean/std across restarts so far):
+0.5977495217201662 0.06761790752951015
+Final test acc (mean/std across restarts so far):
+0.5975276898734178 0.09713593209697562
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+0               0               0               0.70132         0.46094         0.00018
+0               0               100             0.48348         0.78906         0.00074
+0               1               0               0.37903         0.86719         0.01793
+0               1               100             0.33614         0.88281         0.00050
+0               2               0               1.94686         0.10938         2.64591
+
+
+epoch           train nll       train acc       train penalty   test acc
+0               0.39422         0.84924         0.00289         0.09642
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+1               0               0               0.44383         0.82812         0.02809
+1               0               100             0.58185         0.71875         0.00022
+1               1               0               0.65871         0.61719         0.00055
+1               1               100             0.65303         0.60156         0.00035
+1               2               0               0.69206         0.59375         0.00184
+
+
+epoch           train nll       train acc       train penalty   test acc
+1               0.59663         0.66757         0.00198         0.63608
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+2               0               0               0.64819         0.57812         0.00084
+2               0               100             0.60771         0.64844         5.54006e-05
+2               1               0               0.67548         0.55469         0.00070
+2               1               100             0.66138         0.53906         4.42412e-05
+2               2               0               0.66274         0.68750         0.00026
+
+
+epoch           train nll       train acc       train penalty   test acc
+2               0.63578         0.59804         0.00041         0.68819
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+3               0               0               0.65435         0.53906         0.00018
+3               0               100             0.64425         0.58594         0.00022
+3               1               0               0.68099         0.50781         9.64229e-05
+3               1               100             0.67454         0.50000         7.62441e-05
+3               2               0               0.65131         0.70312         0.00038
+
+
+epoch           train nll       train acc       train penalty   test acc
+3               0.65234         0.54652         0.00024         0.72330
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+4               0               0               0.66630         0.53125         9.40025e-05
+4               0               100             0.65443         0.53906         0.00025
+4               1               0               0.68122         0.44531         7.59617e-05
+4               1               100             0.67884         0.50000         1.93167e-05
+4               2               0               0.64227         0.77344         0.00152
+
+
+epoch           train nll       train acc       train penalty   test acc
+4               0.66483         0.50829         0.00015         0.74871
+
+
+
+Final train acc (mean/std across restarts so far):
+0.5828397375005646 0.07015454019234876
+Final test acc (mean/std across restarts so far):
+0.6227254746835443 0.10505934616671402
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+0               0               0               0.69847         0.50781         6.80293e-05
+0               0               100             0.47975         0.78906         7.91696e-05
+0               1               0               0.37248         0.86719         0.01951
+0               1               100             0.33335         0.88281         0.00095
+0               2               0               1.75311         0.10938         1.72516
+
+
+epoch           train nll       train acc       train penalty   test acc
+0               0.39490         0.84924         0.00295         0.09642
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+1               0               0               0.43070         0.82812         0.00931
+1               0               100             0.55515         0.75000         0.00024
+1               1               0               0.48647         0.73438         0.00665
+1               1               100             0.57463         0.61719         0.00038
+1               2               0               0.96472         0.47656         0.05995
+
+
+epoch           train nll       train acc       train penalty   test acc
+1               0.54338         0.69560         0.00143         0.45461
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+2               0               0               0.64325         0.60156         0.00259
+2               0               100             0.60110         0.64844         0.00018
+2               1               0               0.58934         0.60938         0.00098
+2               1               100             0.62576         0.55469         0.00013
+2               2               0               0.78852         0.48438         0.02736
+
+
+epoch           train nll       train acc       train penalty   test acc
+2               0.60912         0.61090         0.00060         0.49535
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+3               0               0               0.68240         0.52344         0.00100
+3               0               100             0.64919         0.56250         0.00014
+3               1               0               0.64926         0.57812         0.00023
+3               1               100             0.67758         0.50781         0.00016
+3               2               0               0.66461         0.68750         0.00025
+
+
+epoch           train nll       train acc       train penalty   test acc
+3               0.65406         0.55940         0.00026         0.70184
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+4               0               0               0.68490         0.51562         0.00030
+4               0               100             0.66988         0.53906         0.00016
+4               1               0               0.68171         0.46875         4.70872e-06
+4               1               100             0.69025         0.47656         3.24896e-05
+4               2               0               0.65776         0.74219         0.00099
+
+
+epoch           train nll       train acc       train penalty   test acc
+4               0.67667         0.52932         0.00012         0.72834
+
+
+
+Final train acc (mean/std across restarts so far):
+0.5751947431170733 0.06759616060609097
+Final test acc (mean/std across restarts so far):
+0.637813630198915 0.10405094881822982
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+0               0               0               0.68802         0.54688         1.44020e-05
+0               0               100             0.48014         0.79688         0.00054
+0               1               0               0.37276         0.85938         0.02013
+0               1               100             0.32618         0.88281         0.00072
+0               2               0               1.89113         0.10938         2.42476
+
+
+epoch           train nll       train acc       train penalty   test acc
+0               0.39403         0.84932         0.00276         0.09642
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+1               0               0               0.44154         0.82812         0.03373
+1               0               100             0.60368         0.64062         0.00037
+1               1               0               0.58813         0.60156         0.00021
+1               1               100             0.62668         0.56250         4.86618e-05
+1               2               0               0.80257         0.49219         0.02007
+
+
+epoch           train nll       train acc       train penalty   test acc
+1               0.60503         0.61572         0.00163         0.47824
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+2               0               0               0.67043         0.51562         0.00251
+2               0               100             0.65156         0.57031         1.79957e-05
+2               1               0               0.65388         0.57812         6.56350e-06
+2               1               100             0.67760         0.50000         3.00278e-06
+2               2               0               0.66919         0.64062         0.00021
+
+
+epoch           train nll       train acc       train penalty   test acc
+2               0.65538         0.55690         0.00032         0.69244
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+3               0               0               0.68733         0.47656         0.00014
+3               0               100             0.68870         0.53125         0.00024
+3               1               0               0.68966         0.53125         2.11665e-05
+3               1               100             0.70071         0.48438         0.00023
+3               2               0               0.65833         0.64844         0.00098
+
+
+epoch           train nll       train acc       train penalty   test acc
+3               0.68205         0.52323         8.87034e-05     0.73299
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+4               0               0               0.69323         0.46875         1.36185e-05
+4               0               100             0.68671         0.49219         2.29523e-06
+4               1               0               0.70871         0.40625         0.00011
+4               1               100             0.69845         0.42969         1.87499e-05
+4               2               0               0.66214         0.68750         0.00094
+
+
+epoch           train nll       train acc       train penalty   test acc
+4               0.68647         0.50035         4.50425e-05     0.74644
+
+
+
+Final train acc (mean/std across restarts so far):
+0.5658387476388289 0.06790308072776507
+Final test acc (mean/std across restarts so far):
+0.6513919106012659 0.10374903781250791
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+0               0               0               0.70121         0.46094         4.58968e-05
+0               0               100             0.47541         0.78906         0.00119
+0               1               0               0.36620         0.87500         0.01480
+0               1               100             0.33227         0.88281         0.00017
+0               2               0               1.79635         0.10938         1.96239
+
+
+epoch           train nll       train acc       train penalty   test acc
+0               0.39391         0.84924         0.00293         0.09642
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+1               0               0               0.43725         0.82812         0.01811
+1               0               100             0.47714         0.79688         0.00049
+1               1               0               0.34278         0.87500         0.01189
+1               1               100             0.32086         0.87500         0.00010
+1               2               0               1.69834         0.14844         1.64854
+
+
+epoch           train nll       train acc       train penalty   test acc
+1               0.38507         0.84814         0.00250         0.11867
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+2               0               0               0.44305         0.83594         0.00180
+2               0               100             0.47428         0.78906         0.00101
+2               1               0               0.34352         0.89062         0.02189
+2               1               100             0.33295         0.88281         7.86651e-05
+2               2               0               1.44836         0.24219         1.51142
+
+
+epoch           train nll       train acc       train penalty   test acc
+2               0.39370         0.84105         0.00205         0.20659
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+3               0               0               0.51632         0.74219         0.01575
+3               0               100             0.53969         0.77344         4.05405e-05
+3               1               0               0.59037         0.68750         7.29191e-05
+3               1               100             0.55944         0.70312         9.90820e-05
+3               2               0               0.82610         0.57031         0.08552
+
+
+epoch           train nll       train acc       train penalty   test acc
+3               0.55461         0.70548         0.00144         0.56992
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+4               0               0               0.62997         0.68750         0.00180
+4               0               100             0.55347         0.69531         0.00011
+4               1               0               0.60316         0.60156         0.00022
+4               1               100             0.55615         0.69531         0.00044
+4               2               0               0.77740         0.59375         0.02249
+
+
+epoch           train nll       train acc       train penalty   test acc
+4               0.55486         0.68770         0.00077         0.60483
+
+
+
+Final train acc (mean/std across restarts so far):
+0.5793792517378488 0.07460077827191008
+Final test acc (mean/std across restarts so far):
+0.6462179149085796 0.09890419575359055
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+0               0               0               0.72892         0.39844         0.00127
+0               0               100             0.48536         0.78906         0.00028
+0               1               0               0.37299         0.86719         0.01665
+0               1               100             0.32831         0.88281         2.61891e-05
+0               2               0               1.78695         0.10938         2.06775
+
+
+epoch           train nll       train acc       train penalty   test acc
+0               0.39509         0.84886         0.00257         0.09642
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+1               0               0               0.43747         0.82812         0.01737
+1               0               100             0.52168         0.81250         0.00051
+1               1               0               0.47906         0.70312         0.00282
+1               1               100             0.51401         0.67188         0.00032
+1               2               0               1.10696         0.41406         0.35340
+
+
+epoch           train nll       train acc       train penalty   test acc
+1               0.51028         0.73149         0.00177         0.42722
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+2               0               0               0.61728         0.65625         0.00101
+2               0               100             0.56480         0.68750         0.00053
+2               1               0               0.52071         0.67188         0.00324
+2               1               100             0.61958         0.56250         0.00031
+2               2               0               0.83604         0.50781         0.06391
+
+
+epoch           train nll       train acc       train penalty   test acc
+2               0.56968         0.65280         0.00096         0.50969
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+3               0               0               0.67359         0.51562         0.00523
+3               0               100             0.60748         0.60156         0.00045
+3               1               0               0.61716         0.57031         0.00053
+3               1               100             0.64416         0.52344         6.43248e-05
+3               2               0               0.72152         0.61719         0.00276
+
+
+epoch           train nll       train acc       train penalty   test acc
+3               0.63209         0.56295         0.00040         0.64003
+
+
+
+epoch           env             iter            train nll       train acc       train penalty
+4               0               0               0.68030         0.50781         0.00073
+4               0               100             0.65378         0.56250         0.00050
+4               1               0               0.66391         0.50781         0.00025
+4               1               100             0.68409         0.46875         6.19710e-05
+4               2               0               0.67191         0.67969         6.23212e-05
+
+
+epoch           train nll       train acc       train penalty   test acc
+4               0.66609         0.51790         0.00018         0.70995
+
+
+
+Final train acc (mean/std across restarts so far):
+0.5732310268191659 0.07313654718233309
+Final test acc (mean/std across restarts so far):
+0.6525909810126583 0.09575687801928758
+
+
+
+[Finished in 114.345s]

@@ -1,0 +1,131 @@
+[Command: python -u /media/data/Causal_Inference/Baseline_Tests/Colored_MNIST/Colored_MNIST_CoRe.py]
+Flags:
+	grayscale_model: False
+	hidden_dim: 390
+	l2_regularizer_weight: 0.0011
+	lr: 0.0004898536566546834
+	n_restarts: 10
+	penalty_anneal_iters: 190
+	penalty_weight: 91257.18613115903
+	steps: 501
+Restart 0
+step            train nll       train acc       train penalty   test acc
+0               0.70404         0.47858         0.01043         0.55450
+100             0.59099         0.85068         0.04234         0.10320
+200             0.66518         0.84582         0.00380         0.12590
+300             0.69246         0.59634         2.73971e-05     0.48460
+400             0.69275         0.54578         1.58852e-05     0.49860      
+500             0.69289         0.51988         1.14405e-05     0.50120
+Final train acc (mean/std across restarts so far):
+0.51988 0.0
+Final test acc (mean/std across restarts so far):
+0.50119996 0.0
+Restart 1
+step            train nll       train acc       train penalty   test acc
+0               0.67346         0.63154         0.00998         0.37010
+100             0.59235         0.84792         0.04165         0.09830
+200             0.67150         0.84744         0.00246         0.09970
+300             0.69294         0.49576         9.26156e-06     0.49760
+400             0.69303         0.49576         5.10198e-06     0.49760
+500             0.69311         0.49576         3.50051e-06     0.49760
+Final train acc (mean/std across restarts so far):
+0.50782 0.0120600015
+Final test acc (mean/std across restarts so far):
+0.49939996 0.0017999858
+Restart 2
+step            train nll       train acc       train penalty   test acc
+0               0.70817         0.40266         0.01171         0.58810
+100             0.59024         0.85120         0.04270         0.10190
+200             0.66702         0.81468         0.00343         0.20190
+300             0.69241         0.50666         2.10681e-05     0.50050
+400             0.69266         0.50666         1.22047e-05     0.50040
+500             0.69280         0.50666         8.57613e-06     0.50040
+Final train acc (mean/std across restarts so far):
+0.50743335 0.009862122
+Final test acc (mean/std across restarts so far):
+0.4997333 0.0015434384
+Restart 3
+step            train nll       train acc       train penalty   test acc
+0               0.68073         0.59998         0.00980         0.40980
+100             0.58934         0.84974         0.04281         0.10150
+200             0.66651         0.84162         0.00341         0.13790
+300             0.69250         0.52044         1.52210e-05     0.49850
+400             0.69275         0.50830         7.77541e-06     0.50220
+500             0.69286         0.50634         5.12709e-06     0.50210
+Final train acc (mean/std across restarts so far):
+0.50716 0.00855396
+Final test acc (mean/std across restarts so far):
+0.50032496 0.0016842996
+Restart 4
+step            train nll       train acc       train penalty   test acc
+0               0.67274         0.67728         0.01059         0.27300
+100             0.59152         0.84876         0.04202         0.09690
+200             0.67285         0.77750         0.00245         0.18890
+300             0.69262         0.50610         1.39116e-05     0.50220
+400             0.69284         0.50410         7.58982e-06     0.50310
+500             0.69293         0.50402         5.22163e-06     0.50320
+Final train acc (mean/std across restarts so far):
+0.506532 0.007753304
+Final test acc (mean/std across restarts so far):
+0.5009 0.0018952569
+Restart 5
+step            train nll       train acc       train penalty   test acc
+0               0.69724         0.50824         0.01235         0.50510
+100             0.58999         0.85034         0.04254         0.09900
+200             0.66714         0.84930         0.00352         0.10830
+300             0.69270         0.49752         2.11023e-05     0.52160
+400             0.69285         0.49234         1.16921e-05     0.50340
+500             0.69298         0.49248         7.82588e-06     0.49690
+Final train acc (mean/std across restarts so far):
+0.50419 0.008804522
+Final test acc (mean/std across restarts so far):
+0.50023335 0.002283758
+Restart 6
+step            train nll       train acc       train penalty   test acc
+0               0.68490         0.58000         0.00935         0.43370
+100             0.59070         0.84920         0.04236         0.10650
+200             0.66878         0.84660         0.00307         0.11320
+300             0.69278         0.50700         1.30912e-05     0.49560
+400             0.69293         0.50030         7.85967e-06     0.49910
+500             0.69301         0.49750         5.58908e-06     0.50090
+Final train acc (mean/std across restarts so far):
+0.50323427 0.008480905
+Final test acc (mean/std across restarts so far):
+0.5003286 0.002127179
+Restart 7
+step            train nll       train acc       train penalty   test acc
+0               0.69225         0.51324         0.00847         0.50200
+100             0.59034         0.85018         0.04260         0.09780
+200             0.67491         0.80110         0.00180         0.20310
+300             0.69257         0.50702         1.20877e-05     0.51150
+400             0.69280         0.50744         6.42448e-06     0.50750
+500             0.69289         0.50768         4.43083e-06     0.50650
+Final train acc (mean/std across restarts so far):
+0.50379 0.008068256
+Final test acc (mean/std across restarts so far):
+0.5011 0.002850442
+Restart 8
+step            train nll       train acc       train penalty   test acc
+0               0.69405         0.51114         0.00887         0.47260
+100             0.59264         0.84718         0.04147         0.10090
+200             0.66985         0.80062         0.00288         0.17610
+300             0.69259         0.50966         1.56999e-05     0.51360
+400             0.69276         0.50746         8.80390e-06     0.51160
+500             0.69287         0.50658         6.18975e-06     0.50960
+Final train acc (mean/std across restarts so far):
+0.5041 0.007657192
+Final test acc (mean/std across restarts so far):
+0.50204444 0.0037891995
+Restart 9
+step            train nll       train acc       train penalty   test acc
+0               0.67487         0.65944         0.00954         0.31590
+100             0.59155         0.84922         0.04196         0.09960
+200             0.66839         0.84910         0.00283         0.10120
+300             0.69288         0.49458         9.57563e-06     0.49750
+400             0.69309         0.49458         5.25925e-06     0.49750
+500             0.69317         0.49458         3.62320e-06     0.49750
+Final train acc (mean/std across restarts so far):
+0.50314796 0.0078055137
+Final test acc (mean/std across restarts so far):
+0.50159 0.0038445962
+[Finished in 403.208s]
