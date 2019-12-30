@@ -1,6 +1,6 @@
 # Exploring Co-variate Shift
 
-See here for details: https://github.com/JRC1995/Causal-Inference/blob/master/CS_594_Causal_Inference_Final_Report.pdf
+See [here](https://github.com/JRC1995/Causal-Inference/blob/master/CS_594_Causal_Inference_Final_Report.pdf) for details.
 
 MNIST_1 contains codes for experimenting on Colored MNIST 1.0 and MNIST_2 contains codes for experimenting on Colored MNIST 2.0. First gen_color_mnist.py needs to be executed to download and generate the data in either of the folder. Then there are separate files for training separate models. Any of the train_XYZ.py files can be run for training and testing. 
 
